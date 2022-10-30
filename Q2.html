@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2 Q2</title>
+    <style>
+        .divTable
+    {
+        display:  table;
+        width:auto;
+        background-color: palevioletred;
+        border:1px solid black;
+        border-spacing:2px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        
+        width:500px;
+        height: 50px;
+       
+    }
+    </style>
+</head>
+<body>
+    <form id="form1">
+        <div class="divTable">
+            <div class="headRow"></div>
+            <div class="divCell">Name:</div>
+            <div class="divCell">Address:</div>
+            <div class="divCell">Course:</div>
+
+            <div class="divRow"></div>
+            <div class="divCell">Ritisna Priyadarshini</div>
+            <div class="divCell">Talcher, Angul, Odisha-759147</div>
+            <div class="divCell">B.Tech Computer Science & Engineering</div>
+            </div>
+    </form>
+</body>
+</html>
